@@ -313,3 +313,20 @@
 .info-section p {
     margin: 0;
 }
+
+#flex {
+    display: flex;
+    align-items: stretch;
+}
+
+#flex > main:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#flex > main:last-child iframe {
+    flex: 1;
+    width: 100%;
+    border: none;
+    display: block;
+}
